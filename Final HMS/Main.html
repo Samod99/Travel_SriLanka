@@ -1,0 +1,257 @@
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<link rel="stylesheet" type="text/css" href="Main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="home">
+<header id="head">
+<div id="menu">
+<ul>
+<li><a href="php/login.php">Log In</a></li>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="#">Rooms</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a class="active" href="Main.html">Home</a></li>
+</ul>
+</div>
+<div id="heading">
+<h1>NICE AND COMFORTABLE PLACE TO STAY</h1><br>
+<button class="btn">View More Details</button>
+</div>
+</header>
+<section id="services">
+<div id="serve">
+<h3>Services</h3>
+</div>
+<div class="row">
+<div class="Card">
+<img src="yoga.jpg" alt="Food" style="width:100%">
+<div class="container">
+<h4>Yoga & Meditation</h4>
+<p><b>R</b>elieve yourself from all your worries, revive, and rejuvenate your mind, body and soul with Yoga in Unawatuna! Join our well-curated yoga and meditation sessions carried out by talented yoga instructors during your stay.</p>
+</div>
+</div>
+
+<div class="Card">
+<img src="pool1.jpg" alt="Food" style="width:100%">
+<div class="container">
+<h4>Swimming Pools</h4>
+<p><b>T</b>ake a break from the midday heat by diving into one of our lavish swimming pools – it’s the perfect way to refresh yourself and relax as the tropical sun reaches its zenith.</p>
+</div>
+</div>
+
+<div class="Card">
+<img src="gym.jpg" alt="Food" style="width:100%">
+<div class="container">
+<h4>Fitness Center</h4>
+<p><b>S</b>tay in sync with your fitness regime even when you are on vacation! Head out to our fully-equipped fitness centre for a wholesome and revitalising workout session.</p>
+</div>
+</div>
+
+</div>
+</section><br>
+<section id="gallery">
+<div id="serve">
+<h3>Rooms</h3>
+</div>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="Studio4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="Room.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="royal2.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="presidential2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="Family1.jpg" style="width:100%">
+  </div> 
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Studio4.jpg" style="width:100%" onclick="currentSlide(1)" alt="Studio Room">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Room.jpg" style="width:100%" onclick="currentSlide(2)" alt="Junior Suite">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="royal2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Royal Suite">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="presidential2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Presidential Suite">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Family1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Family Room">
+    </div>    
+    
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</section>
+<section id="book">
+<div id="booking">
+<br>
+<a id="booknow" href="#">Book Now >></a>
+</div>
+</section>
+<section id="customer">
+<div id="serve">
+<h3>Customers  Feedback</h3>
+</div>
+<div class="row">
+<div class="Card1">
+<h2>Anne</h2><br>
+<img id="yoga" src="anne1.jpg" alt="Food" style="width:100%">
+<div class="container">
+<h4>Friendly Staff &nbsp;!</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+</div>
+
+<div class="Card1">
+<h2>Ishraf</h2><br>
+<img id="yoga" src="cus3.jpg" alt="Food" style="width:100%">
+<div class="container">
+<h4>Comfortable Living &nbsp;!</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+</div>
+</div>
+
+<div class="Card1">
+<h2>Grace</h2><br>
+<img id="yoga" src="cus1.jpg" alt="Food" style="width:100%">
+<div class="container">
+<h4>Good Customer Service &nbsp!</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</div>
+</div>
+</div>
+</section>
+
+
+<footer>
+<div id="row">
+<div id="foot">
+<h2>Follow Us On :</h2>
+<ul>
+<li>Instagram</li><br>
+<li>Facebook</li><br>
+<li>Twitter</li><br>
+<li>LinkedIn</li><br>
+</ul>
+
+<i class="fa fa-twitter" style="font-size:36px"></i>&nbsp;&nbsp;
+<i class="fa fa-instagram" style="font-size:36px"></i>&nbsp;&nbsp;
+<i class="fa fa-facebook" style="font-size:36px"></i>&nbsp;&nbsp;
+<i class="fa fa-linkedin" style="font-size:36px;color:red"></i>
+
+</div>
+<div id="foot">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Help</h2>
+            <ul>
+                <li><a href="Main.html">Home</a></li><br>
+                <li><a href="About.html">AboutUs</a></li><br>
+                <li><a href="Contact.html">Contact</a></li><br>
+                <li><a href="Login.html">Login</a></li><br>
+                <li><a href="#">Rooms</a></li>
+            </ul>
+            </div>
+
+
+
+<div id="foot">
+            
+<h2>Address</h2>
+                <ul>
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span><br>
+                        <span> 8/B ,<br> Main street, <br> Hambantota.</span>
+                    </li>
+                    <li>
+                        <br><span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="#">+94 071 5866 800</a> <br>
+                            <a href="#">+94 071 5866 800</a> 
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="#">cinnamongrand@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+</div>
+
+</footer>
+</div>
+</body>
+</html>

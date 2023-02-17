@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/*main start*/
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/safari-yala-national-park-sri-lanka\ \(1\).jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main .content{
+    max-width: 800px;
+}
+
+.main .content h2{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+}
+.main .content h2 span{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.animated-text{
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+}
+
+.animated-text h3{
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.animated-text h3:nth-child(1){
+    animation: text-move 10s infinite;
+}
+
+@keyframes text-move{
+    0%{
+        margin-top: 0;
+    }
+    25%{
+        margin-top: -70px;
+    }
+    50%{
+        margin-top: -140px;
+    }
+    75%{
+        margin-top: -70px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+
+/*main end*/
+
+/*header start*/
+
+header{
+    z-index: 999;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+/*scroll header*/
+header.sticky{
+    background: #3a6cf4;
+    padding: 10px 200px;
+}
+
+header .brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+}
+
+header .navigation a{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+ 
+header .navigation a:hover{
+    color: rgb(7, 3, 66);
+}
+
+body{
+    min-height: 110vh;
+}
+/*header end*/
+
+/*scrolltotop start*/
+
+.scrollToTop-btn{
+    z-index: 999;
+    position: fixed;
+    background: #3a6cf4;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.scrollToTop-btn.active{
+    right: 20px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/*scrolltotop end*/
+
+
+.reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1.5s ease ;
+}
+
+.reveal.active{
+   transform: translateY(0);
+   opacity: 1;
+}
+
+ /*footer start*/
+ .footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #000016;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer .footer-container .sec{
+    margin-right: 30px;
+}
+
+.footer .footer-container .sec.aboutus{
+    width: 40%;
+    
+}
+.footer .footer-container h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer .footer-container h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #2696E9;
+}
+
+.footer p{
+    color: #999;
+}
+
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover{
+    background: #2696e9;
+}
+
+.sci li a .fab{
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks{
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover{
+    color: #2696e9;
+}
+
+.Lcontact{
+    width: calc(35% -60px);
+    margin-right: 0 !important;
+}
+.Lcontact .info{
+    position: relative;
+}
+
+.Lcontact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.Lcontact .info li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.Lcontact .info li span{
+    color: #999;
+}
+
+.Lcontact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.Lcontact .info li a:hover{
+    color: #2696e9;
+}
+
+ /*footer end*/
+
+  /*Copyfooter start*/
+
+.copyrightText{
+    width: 100%;
+    background: #181811;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+
+
+  
+  /*Copyfooter end*/
+
+
+
+
+  @media(max-width :1040px){
+    header {
+        padding: 12px 20px;
+    }
+
+    header.sticky {
+        padding: 10px 20px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+    header .navigation.active{
+        z-index: 888;
+        position: fixed;
+        background: #fff;
+        top: 0;
+        right: 0;
+        width: 380px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 150%);
+        transition: 0.3s ease;
+    }
+    header .navigation a{
+        color: #000;
+        font-size: 1.2em;
+        margin: 10px;
+        padding: 0 20px;
+        border-radius: 20px;
+    }
+    header .navigation a:hover{
+        background: #3a6cf4;
+        color: #fff;
+        transition: 0.3s ease;
+
+    }
+
+    .menu-btn{
+        position: absolute;
+        background: url(images/2855969.png)no-repeat;
+        background-size: 50px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        right: 0;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .menu-btn.active{
+        z-index: 999;
+        background: url(images/2794770.png)no-repeat;
+        background-size: 50px;
+        background-position: center;
+        transition: 0.3s ease;
+        filter: invert(-1);
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main .content h2 {
+        font-size: 1em;
+    }
+
+    .animated-text h3 {
+        font-size: 2.2em;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .beach .content {
+        flex-direction: column;
+    }
+
+    .beach .content .column{
+        position: relative;
+        width: 100%;
+    }
+
+    .beach .content .col-right {
+        margin-top: 40px;
+    }
+
+    section {
+        padding: 100px 20px;
+    }
+
+    
+}
+
+
+/*footer start*/
+
+@media(max-width: 991px){
+     
+    .contact-container .formBx {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+     .contact-container .formBx form {
+        width: 100%;
+        max-width: 500px;
+        padding: 0;
+    }
+     .contact-container .imgbx{
+        display: none;
+    }
+
+    .footer {
+        padding: 40px;
+    }
+
+    .footer .footer-container {
+        flex-direction: column;
+    }
+
+    .footer .footer-container .sec {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .footer .footer-container .sec.aboutus,
+    .quickLinks,
+    .Lcontact{
+        width: 100%;
+    }
+
+    .copyrightText {
+        padding: 8px 40px;
+    }
+
+    
+}
+
+/*footer end*/
+
+ /*media query end*/
+
+
+ /*vilpattuwa start*/
+
+
+ .vilpattuwa{
+    background: #fff;
+ }
+ 
+ .title{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .section-title{
+     position: relative;
+     color: #3a6cf4;
+     font-size: 2.2em;
+     font-weight: 800;
+     margin-bottom: 60px;
+ }
+ 
+ .section-title:before{
+     content: '';
+     position: absolute;
+     top: 56px;
+     left: 50%;
+     width: 140px;
+     height: 4px;
+     background: #3a6cf4;
+     transform: translateX(-50%);
+ }
+ 
+ .section-title:after{
+     content: '';
+     position: absolute;
+     top: 50px;
+     left: 50%;
+     width: 15px;
+     height: 15px;
+     border-radius: 50%;
+     background: #3a6cf4;
+     transform: translateX(-50%);
+ 
+ }
+ 
+  .vilpattuwa .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.vilpattuwa .content .col-left{
+    position: relative;
+    width: 45%;
+}
+
+.vilpattuwa .content .col-right{
+    position: relative;
+    width: 50%;
+
+}
+
+.vilpattuwa .content .col-left .img-card{
+
+    position: relative;
+    width: 100%;
+    min-height: 1300px;
+}
+
+.vilpattuwa .content .col-left .img-card #map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.vilpattuwa .content .col-right .content-title{
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #3a6cf4;
+}
+
+.vilpattuwa .content .col-right .paragraph-text{
+    font-size: 1em;
+    color: #000016;
+}
+
+
+ /*vilpattuwa end*/
+
+
+
+ 

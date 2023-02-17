@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galle Heritage</title>
+    <link rel="stylesheet" href="galle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+
+    <!--scrolltotop start-->
+
+    <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+        <!--scrolltotop end-->
+
+
+    <!--header start-->
+    <header>
+        <a href="../../index.php" class="brand">travel</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="../../index.php">Home</a>
+            <a href="../../index.php#main">upevents</a>
+            <a href="../../index.php#gallery">Gallery</a>
+            <a href="../../index.php#about">About</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../index.php#category">category</a>
+            <a href="../../index.php#contact">Contact US</a>
+           
+        </div>
+
+    </header>
+    <!--header end-->
+
+    <!--main start-->
+    <section class="main" >
+        <div class="content">
+            <h2>Hello, This is <br><span>Galle</span></h2>
+            <div class="animated-text">
+                <h3>Unesco World Heritage Site</h3>
+                <h3>ගාල්ල</h3>
+                <h3>Galle-Dutch</h3>
+
+            </div>
+
+        </div>
+    </section>
+    <!--main end-->
+
+
+
+    <!--galle start-->
+
+    <section class="galle">
+        <div class="title reveal">
+            <h2 class="section-title">Galle</h2>
+        </div>
+
+        <div class="content">
+            <div class="column col-left reveal">
+             <div class="img-card">
+                <div id="map">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="column col-right reveal">
+                <h2 class="content-title">Galle</h2>
+                <p class="paragraph-text">* Galle (Sinhala: ගාල්ල, romanized: Gālla; Tamil: காலி, romanized: Kāli) (formerly Point de Galle) is a major city in Sri Lanka, situated on the southwestern tip, 119 kilometres (74 mi) from Colombo. Galle is the provincial capital and largest city of Southern Province, Sri Lanka and is the capital of Galle District. <br>
+                    * Galle was known as Gimhathiththa[1] before the arrival of the Portuguese in the 16th century, when it was the main port on the island. Ibn Batuta, a Moroccan Berber Muslim traveller in the 14th century, referred to it as Qali.[2] Galle reached the height of its development in the 18th century, during the Dutch colonial period. Galle is the best example of a fortified city built by the Portuguese in South and Southeast Asia, showing the interaction between Portuguese architectural styles and native traditions. The city was extensively fortified by the Dutch during the 17th century from 1649 onwards. The Galle fort is a world heritage site and is the largest remaining fortress in Asia built by European occupiers. br
+                    * Other prominent landmarks in Galle include the city's natural harbour, the National Maritime Museum, St. Mary's Cathedral founded by Jesuit priests, one of the main Shiva temples on the island, and Amangalla, the historic luxury hotel. On 26 December 2004, the city was devastated by the massive tsunami caused by the 2004 Indian Ocean earthquake, which occurred off the coast of Indonesia a thousand miles away. Thousands were killed in the city alone. Galle is home to the Galle International Stadium, which is considered to be one of the most picturesque cricket grounds in the world.[3] The ground, which was severely damaged by the tsunami, was rebuilt and test matches resumed there on 18 December 2007. br
+                    * Important natural geographical features in Galle include Rumassala in Unawatuna, a large mound-like hill that forms the eastern protective barrier to Galle Harbour. Local tradition associates this hill with some events of Ramayana, one of the great Hindu epics. The major river in the area is the Gin River (Gin Ganga), which begins from Gongala Kanda, passes villages such as Neluwa, Nagoda, Baddegama, Thelikada and Wakwella, and reaches the sea at Ginthota. The river is bridged at Wakwella by the Wakwella Bridge. <br>
+                    <h2 class="content-title">Etymology</h2>
+                    * Galle was known as Gimhathitha in ancient times. The term is believed to be derived from the classical Sinhalese term meaning "port near the River Gin". It is believed that the town got its name as Gaalla in the native tongue as a result of the large number of bullock carts that took shelter in the area, following the long slow journeys from remote areas of the island. Gaala in Sinhala means the place where cattle are herded together; hence the Sinhalese name for Galle, ගාල්ල, is a development from Gaala.[4][5] Another theory is that the word Galle is derived from the Latin word gallus, which means 'rooster'.[citation needed] The Dutch used the rooster as a symbol of Galle, though probably the word comes from the Portuguese galo (rooster). <br>
+
+                    <h2 class="content-title">History</h2>
+                    * According to James Emerson Tennent, Galle was the ancient seaport of Tarshish, from which King Solomon drew ivory, peacocks and other valuables. Cinnamon was exported from Sri Lanka as early as 1400 BC, and as the root of the word itself is Hebrew, Galle may have been a main entrepôt for the spice. <br>
+                    * Ancient Greek and Roman geographers may have known about Galle, which they might have called the Cape of Birds. Ptolemy might also have known about the port which he referred to as Odoka. Moroccan traveller Ibn Battuta visited Galle (or Qali as he called it) in 1342. During the 12th and 13th centuries, Sinhalese refugees fleeing Tamil armies from the north began to settle in Galle and other nearby areas. <br>
+                    * Galle had been a prominent seaport long before western rule in the country: Persians, Arabs, Greeks, Romans, Malays, Indians, and Chinese were doing business through Galle's port. In 1411, the Galle Trilingual Inscription, a stone tablet inscription in three languages, Chinese, Tamil and Persian, was erected in Galle to commemorate the second visit to Ceylon by the Chinese admiral Zheng He. In 1502, a small fleet of Portuguese ships, under the command of Lourenço de Almeida on their way to the Maldives, were blown off course by a storm. Realising that the King resided in Kotte close to Colombo, Lourenço proceeded there after a brief stop in Galle. <br>
+                    * In 1640, the Portuguese were forced to surrender to the Dutch East India Company. The Dutch built the present fort in 1663. They built a fortified solid granite wall and three bastions, known as "Sun", "Moon" and "Star". <br>
+                    * After the British took over the country from the Dutch in 1796, they preserved the fort unchanged and used it as the administrative centre of the district. <br>
+
+                    <h2 class="content-title">Transport</h2>
+                    * Galle is served by Sri Lanka Railways' Coastal Line and is connected by rail to Colombo and Matara. Galle Railway Station is a major station on the line and serves as the meeting point of the west- and south-coast segments of the line.[12] The A2 highway, which is commonly known as the Galle Road, runs through the city and connects Galle to Colombo by the west-coast portion, and to Hambanthota by the south-coast portion. The Southern Expressway, Sri Lanka's first E Class highway, links the Sri Lankan capital Colombo with Galle and currently reduces the time spent for travel to one hour from the three hours taken by the regular A2 highway. <br>
+
+                    <h2 class="content-title">Dutch</h2>
+                    * Galle is a jewel. A Unesco World Heritage Site, this historic city is a delight to explore on foot, an endlessly exotic old trading port blessed with imposing Dutch-colonial buildings, ancient mosques and churches, grand mansions and museums. Wandering its rambling lanes you'll pass stylish cafes, quirky boutiques and impeccably restored hotels owned by local and foreign artists, writers, photographers and designers. <br>
+                    * Built by the Dutch, beginning in 1663, Galle's core is the Fort, a walled enclave surrounded on three sides by the ocean. A key part of the Fort’s appeal is that it isn’t just a pretty place. Sure, tourism now dominates the local economy, but this unique city remains a working community: there are administrative offices and courts, export companies, schools and colleges. <br>
+                    * Most travelers are utterly seduced by Galle's ambience, and it's undoubtedly southern Sri Lanka's one unmissable sight.
+                </p>
+            
+             </div>
+        </div>
+    </section>
+
+<!--galle end-->
+
+
+<!--footer start-->
+<footer class="footer">
+            <div class="footer-container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>Travel Srilanka is regularising the tourism industry in the country,while establishing, positioning, and developing Sri Lanka as a leading destination for international visitors. Travel Sri Lanka is responsible for tapping into Sri Lanka ‘s natural potential to expand and enhance its tourism offering while benefiting investors and supporting communities, in a sustainable manner.</p>
+                    <ul class="sci">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="https://www.srilankan.com/en_uk/plan-and-book/timetable">Sri Lankan AirLine Time Table</a></li>
+                        <li><a href="https://eservices.railway.gov.lk/schedule/homeAction.action?lang=en">Sri Lankan Train Time Table</a></li>
+                        <li><a href="https://www.google.lk/maps/@8.2461758,80.644624,7z">Sri Lanka Map</a></li>
+                        <li><a href="https://www.meteo.gov.lk/index.php?lang=en">Sri Lanka Weather</a></li>
+                        <li><a href="https://www.sltda.gov.lk/en">Sri Lankan Tourism Development Authority</a></li>
+                    </ul>
+                </div>
+                <div class="sec Lcontact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>243 st.joshap <br>
+                            bambalapitiya,Colombo,<br>Sri Lanka</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <p><a href="tel:123456789">+94 47 66 123 90</a><br>
+                                <a href="tel:123456789">+94 47 66 123 90</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <p><a href="travel:travel@gmail.com">travel@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </footer>
+
+
+         
+            <!--footer end-->
+
+    <!--Copyfooter start-->
+
+    <div class="copyrightText">
+        <p>Copyright 2021 Travel SriLanka . All Rights Reserved</p>
+    </div>
+
+    <!--Copyfooter end-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuQfEANJu246S3H6tlLbcdjPZlWwZa6do&callback=initMap"></script>
+    <script src="galle.js"></script>
+</body>
+</html>

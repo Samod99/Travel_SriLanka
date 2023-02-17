@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(about.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.back {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    max-width: auto;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.title h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.button {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}

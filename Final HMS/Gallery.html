@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Gallery Page</title>
+<link rel="stylesheet" type="text/css" href="Gallery.Css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="home">
+<div id="menu">
+<ul>
+<li><a href="Login.html">Log In</a></li>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="#">Rooms</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a class="active" href="Main.html">Home</a></li>
+</ul>
+</div>
+
+
+<header id="head">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="entrance.jpg" style="width:100%">
+  <div class="text">Entrance</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="pooly.jpg" style="width:100%">
+  <div class="text">Pool</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="food1.jpg" style="width:100%">
+  <div class="text">Food</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="ballroom.jpg" style="width:100%">
+  <div class="text">Ball Room</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5/ 5</div>
+  <img src="presidentialy.jpg" style="width:100%">
+  <div class="text">Room</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</header>
+</div>
+<section id="title">
+<h1 id="t1">The Photo Gallery</h1>
+<div id="p1">
+<P>Sometimes, a picture is worth a thousand words. So, take some time to peruse through this fantastic collecton photos from our properties. From the beautiful white sand beaches that border the Araliya Beach Resort and Spa to our spacious suites and conference halls, get a taste of what you can expect once you book your stay with us.</p>
+</div>
+</section>
+
+<section id="photo">
+
+<div class="row">
+  <div class="column">
+    <img src="entrance1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="food1.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="pooly.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="Family1.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="services1.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="meditation1.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="royal2.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="gym1.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="signature1.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="Room.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="ballroom1.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="sushi.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="watersport.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="Studiox.jpg" alt="Mountains" style="width:100%">
+  </div>
+<div class="column">
+    <img src="cafe1.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</section>
+
+<footer>
+<div id="row">
+<div id="foot">
+<h2>Follow Us On :</h2>
+<ul>
+<li>Instagram</li><br>
+<li>Facebook</li><br>
+<li>Twitter</li><br>
+<li>LinkedIn</li><br>
+</ul>
+
+<i class="fa fa-twitter" style="font-size:36px"></i>&nbsp;&nbsp;
+<i class="fa fa-instagram" style="font-size:36px"></i>&nbsp;&nbsp;
+<i class="fa fa-facebook" style="font-size:36px"></i>&nbsp;&nbsp;
+<i class="fa fa-linkedin" style="font-size:36px;color:red"></i>
+
+</div>
+<div id="foot">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Help</h2>
+            <ul>
+                <li><a href="Main.html">Home</a></li><br>
+                <li><a href="About.html">AboutUs</a></li><br>
+                <li><a href="Contact.html">Contact</a></li><br>
+                <li><a href="Login.html">Login</a></li><br>
+                <li><a href="#">Rooms</a></li>
+            </ul>
+            </div>
+
+
+
+<div id="foot">
+            
+<h2>Address</h2>
+                <ul>
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span><br>
+                        <span> 8/B ,<br> Main street, <br> Hambantota.</span>
+                    </li>
+                    <li>
+                        <br><span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="#">+94 071 5866 800</a> <br>
+                            <a href="#">+94 071 5866 800</a> 
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="#">cinnamongrand@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+</div>
+
+</footer>
+
+</body>
+</html>

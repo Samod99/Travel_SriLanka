@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasikuda Beach details</title>
+    <link rel="stylesheet" href="pasikuda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+
+    <!--scrolltotop start-->
+
+    <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+        <!--scrolltotop end-->
+
+
+    <!--header start-->
+    <header>
+        <a href="../../index.php" class="brand">travel</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="../../index.php">Home</a>
+            <a href="../../index.php#main">upevents</a>
+            <a href="../../index.php#gallery">Gallery</a>
+            <a href="../../index.php#about">About</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../index.php#category">category</a>
+            <a href="../../index.php#contact">Contact US</a>
+            
+        </div>
+
+    </header>
+    <!--header end-->
+
+    <!--main start-->
+    <section class="main" >
+        <div class="content">
+            <h2>Hello, This is <br><span>Pasikuda</span></h2>
+            <div class="animated-text">
+                <h3>Corals</h3>
+                <h3>Diving</h3>
+                <h3>Surfing</h3>
+
+            </div>
+
+        </div>
+    </section>
+    <!--main end-->
+
+
+
+    <!--pasikuda start-->
+
+    <section class="pasikuda">
+        <div class="title reveal">
+            <h2 class="section-title">Pasikuda</h2>
+        </div>
+
+        <div class="content">
+            <div class="column col-left reveal">
+             <div class="img-card">
+                <div id="map">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="column col-right reveal">
+                <h2 class="content-title">THINGS TO DO IN PASIKUDA SRI LANKA</h2>
+                <p class="paragraph-text">* Sri Lanka’s east coast isn’t as well-known as many of the long-standing resorts to the south and west of the country, however the beaches to be found here are spectacular. If you’re looking for a tropical paradise with swaying palms, endless sandy beaches, a relaxed and easygoing vibe, and with water sports and lesser-known sights to explore, you’ll love Pasikuda Beach. Close to sedate Batticaloa and its vast lagoon, its predominantly Tamil-Hindu culture gives the region its own warm, unique and unforgettable flavour. <br>
+                    <h2 class="content-title">PASIKUDA BEACH</h2>
+                    * Pasikuda is the pin up of picture postcard beaches thanks to its soft white sand and translucent water. Between May and September, this is the best place in Sri Lanka for a Sri Lankan beach holiday. Most days are cloudless, the ocean is warm, and water clarity is very good which makes it ideal for snorkelling, diving, sailing and a host of other water sports. The curve of Pasikuda bay means that swimming can be enjoyed throughout the year. <br>
+                    * Pasikuda is a relatively new destination in Sri Lanka for luxury beach holidays and the resorts lining Pasikuda, such as Uga Bay, all benefit from generous manicured gardens, wide-open beachfronts and the most surreal ocean views. The original village of Pasikuda with its guesthouses, hawker stalls and fishing boats infuse local flavor to the south of the bay. During the high season, jet skis, kayaks and sailing boats occupy the water. <br>
+                    * Uga Bay sits right in the centre of Pasikuda Bay, and its wide beach frontage is easily identified by the twin palm trees that stand marooned amidst an ocean of milky-white sand. The grounds are lush and private, its rooms stylish, and service is highly personalised. To book a stay at the best hotel in Pasikuda, please click here. <br>
+                    <h2 class="content-title">KALKUDAH BEACH</h2>
+                    * Just 20-minutes’ drive from Pasikuda is the gloriously secluded Kalkudah Beach. Stretching as far as the eye can see, this bay – backed by a profusion of coconut palm estates and cashew nut plantations – offers a complete contrast to Pasikuda. Aside from a couple of low-key resorts, the beach is otherwise completely undeveloped – a rare find anywhere in the world. You can walk or jog for miles along Kalkudah’s soft, ivory sands without seeing a soul except for local fishermen casting their nets into the sea. Kalkudah isn’t as good for swimming as Pasikuda due to seasonal currents and the absence of life guards though it does feel more ‘local’ and Crusoe-esque. Cycle here from Pasikuda along a sandy track winding through villages, over a railway line and through coconut plantations. <br>
+
+                </p>
+            
+             </div>
+        </div>
+    </section>
+
+<!--pasikuda end-->
+
+
+ <!--footer start-->
+ <footer class="footer">
+    <div class="footer-container">
+        <div class="sec aboutus">
+            <h2>About Us</h2>
+            <p>Travel Srilanka is regularising the tourism industry in the country,while establishing, positioning, and developing Sri Lanka as a leading destination for international visitors. Travel Sri Lanka is responsible for tapping into Sri Lanka ‘s natural potential to expand and enhance its tourism offering while benefiting investors and supporting communities, in a sustainable manner.</p>
+            <ul class="sci">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="sec quickLinks">
+            <h2>Quick Links</h2>
+            <ul>
+            <li><a href="https://www.srilankan.com/en_uk/plan-and-book/timetable">Sri Lankan AirLine Time Table</a></li>
+                        <li><a href="https://eservices.railway.gov.lk/schedule/homeAction.action?lang=en">Sri Lankan Train Time Table</a></li>
+                        <li><a href="https://www.google.lk/maps/@8.2461758,80.644624,7z">Sri Lanka Map</a></li>
+                        <li><a href="https://www.meteo.gov.lk/index.php?lang=en">Sri Lanka Weather</a></li>
+                        <li><a href="https://www.sltda.gov.lk/en">Sri Lankan Tourism Development Authority</a></li>
+            </ul>
+        </div>
+        <div class="sec Lcontact">
+            <h2>Contact Info</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span>243 st.joshap <br>
+                    bambalapitiya,Colombo,<br>Sri Lanka</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <p><a href="tel:123456789">+94 47 66 123 90</a><br>
+                        <a href="tel:123456789">+94 47 66 123 90</a></p>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <p><a href="travel:travel@gmail.com">travel@gmail.com</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </footer>
+
+
+ 
+    <!--footer end-->
+
+    <!--Copyfooter start-->
+
+    <div class="copyrightText">
+        <p>Copyright 2021 Travel SriLanka . All Rights Reserved</p>
+    </div>
+
+    <!--Copyfooter end-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuQfEANJu246S3H6tlLbcdjPZlWwZa6do&callback=initMap"></script>
+    <script src="pasikuda.js"></script>
+</body>
+</html>

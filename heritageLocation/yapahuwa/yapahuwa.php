@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yapahuwa Heritage</title>
+    <link rel="stylesheet" href="yapahuwa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+
+    <!--scrolltotop start-->
+
+    <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+        <!--scrolltotop end-->
+
+
+    <!--header start-->
+    <header>
+        <a href="../../index.php" class="brand">travel</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="../../index.php">Home</a>
+            <a href="../../index.php#main">upevents</a>
+            <a href="../../index.php#gallery">Gallery</a>
+            <a href="../../index.php#about">About</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../index.php#category">category</a>
+            <a href="../../index.php#contact">Contact US</a>
+            
+        </div>
+
+    </header>
+    <!--header end-->
+
+    <!--main start-->
+    <section class="main" >
+        <div class="content">
+            <h2>Hello, This is <br><span>Yapahuwa</span></h2>
+            <div class="animated-text">
+                <h3>Huge Granite Rock </h3>
+                <h3>යාපහුව</h3>
+                <h3>The Yapahuwa staircase</h3>
+
+            </div>
+
+        </div>
+    </section>
+    <!--main end-->
+
+
+
+    <!--yapahuwa start-->
+
+    <section class="yapahuwa">
+        <div class="title reveal">
+            <h2 class="section-title">Yapahuwa</h2>
+        </div>
+
+        <div class="content">
+            <div class="column col-left reveal">
+             <div class="img-card">
+                <div id="map">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="column col-right reveal">
+                <h2 class="content-title">Yapahuwa</h2>
+                <p class="paragraph-text">* Yapahuwa (Sinhalese language : යාපහුව) was one of the ephemeral capitals of medieval Sri Lanka. The citadel of Yapahuwa lying midway between Kurunagala and Anuradhapura was built around a huge granite rock rising abruptly almost a hundred meters above the surrounding lowlands. <br>
+                    * In 1272, King Bhuvenakabahu transferred the capital from Polonnaruwa to Yapahuwa in the face of Dravidian invasions from South India, bringing the Sacred Tooth Relic with him. Following the death of King Bhuvenakabahu in 1284, the Pandyans of South India invaded Sri Lanka once again, and succeeded in capturing Sacred Tooth Relic. Following its capture, Yapahuwa was largely abandoned and inhabited by Buddhist monks and religious ascetics. <br>
+                    <h2 class="content-title">Location and Name</h2>
+                    * The rock fortress complex of Yapahuwa is situated in the North Western Province, Sri Lanka. It is approximately between southeast of Mahawa midway Kurunegala and Anuradhapura. The original name of this Buddhist Heritage is Yapawwa, but now this is called as Yapahuwa which is a kind of distortion of its genuine etymological sense. <br>
+
+                    <h2 class="content-title">History</h2>
+                    * Yapahuwa served as the capital of Sri Lanka in the latter part of the 13th century (1273–1284). Built on a huge, 90 meter high rock boulder in the style of the Sigiriya rock fortress, Yapahuwa was a palace and military stronghold against foreign invaders. <br>
+                    * The palace and fortress were built by King Buvanekabahu I (1272–1284) in the year 1273. Many traces of ancient battle defences can still be seen, while an ornamental stairway, is its biggest showpiece. On top of the rock are the remains of a stupa, a Bodhi tree enclosure, and a rock shelter/cave used by Buddhist monks, indicating that earlier this site was used as a Buddhist monastery, like many boulders and hills in the area. There are several caves at the base of the rock. In one of them there is a shrine with Buddha images. One cave has a Brahmi script inscription. At the southern base of the rock there is a fortification with two moats and ramparts. In this enclosure there are the remains of a number of buildings including a Buddhist shrine. There is also a Buddhist temple called Yapahuwa Rajamaha Vihara built during the Kandyan period. <br>
+                    * The Tooth Relic was brought from Dambadeniya and kept in the Tooth Temple built for the purpose at the top of the third staircase. The relics were carried away from the temple here to South India by the Pandyas, and then recovered in 1288 by Parakkramabahu III (1287–1293), who temporarily placed them in safety at Polonnaruwa. <br>
+
+               
+                </p>
+            
+             </div>
+        </div>
+    </section>
+
+<!--yapahuwa end-->
+
+
+<!--footer start-->
+<footer class="footer">
+            <div class="footer-container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>Travel Srilanka is regularising the tourism industry in the country,while establishing, positioning, and developing Sri Lanka as a leading destination for international visitors. Travel Sri Lanka is responsible for tapping into Sri Lanka ‘s natural potential to expand and enhance its tourism offering while benefiting investors and supporting communities, in a sustainable manner.</p>
+                    <ul class="sci">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="https://www.srilankan.com/en_uk/plan-and-book/timetable">Sri Lankan AirLine Time Table</a></li>
+                        <li><a href="https://eservices.railway.gov.lk/schedule/homeAction.action?lang=en">Sri Lankan Train Time Table</a></li>
+                        <li><a href="https://www.google.lk/maps/@8.2461758,80.644624,7z">Sri Lanka Map</a></li>
+                        <li><a href="https://www.meteo.gov.lk/index.php?lang=en">Sri Lanka Weather</a></li>
+                        <li><a href="https://www.sltda.gov.lk/en">Sri Lankan Tourism Development Authority</a></li>
+                    </ul>
+                </div>
+                <div class="sec Lcontact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>243 st.joshap <br>
+                            bambalapitiya,Colombo,<br>Sri Lanka</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <p><a href="tel:123456789">+94 47 66 123 90</a><br>
+                                <a href="tel:123456789">+94 47 66 123 90</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <p><a href="travel:travel@gmail.com">travel@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </footer>
+
+
+         
+            <!--footer end-->
+
+    <!--Copyfooter start-->
+
+    <div class="copyrightText">
+        <p>Copyright 2021 Travel SriLanka . All Rights Reserved</p>
+    </div>
+
+    <!--Copyfooter end-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuQfEANJu246S3H6tlLbcdjPZlWwZa6do&callback=initMap"></script>
+    <script src="yapahuwa.js"></script>
+</body>
+</html>
